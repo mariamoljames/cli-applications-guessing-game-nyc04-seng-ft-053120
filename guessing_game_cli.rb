@@ -12,10 +12,10 @@ def run_guessing_game
   user_integer=user_input.to_i
   random=generate_random_number
   if user_input.eql?("exit")
-    return "Goodbye!"
+    puts "Goodbye!"
   elsif user_integer==random
-    return "You guessed the correct number!"
+    puts "You guessed the correct number!"
   elsif user_integer!=random
-    return "Sorry! The computer guessed #{random}."
+    puts "Sorry! The computer guessed #{random}."
   end
 end
