@@ -8,7 +8,6 @@ def generate_random_number
   rand(7)
 end
 def run_guessing_game
-  prompt_user
   user_input=get_user_input
   user_integer=user_input.to_i
   random=generate_random_number
