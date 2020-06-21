@@ -1,4 +1,7 @@
-def run_guessing_game
+def prompt_user
+  puts "Guess a number between 1 and 6"
+end
+  def run_guessing_game
   random=rand(7)
   user_input=gets.chomp
   if user_input.eql?("exit")
