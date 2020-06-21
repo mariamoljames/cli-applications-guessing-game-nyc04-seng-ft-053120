@@ -18,10 +18,12 @@ def compare(input,random)
   end
 end
 
-  def each(&block)
-
-  end
 def run_guessing_game
+  prompt_user
+  get_user_input
+  generate_random_number
+  compare
+end
   random=rand(7)
   user_input=gets.chomp
   if user_input.eql?("exit")
