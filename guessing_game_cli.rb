@@ -15,6 +15,7 @@ def compare(input,random)
     puts "Sorry! The computer guessed #{random}"
   else
     puts "Goodbye!"
+  end
 
   def each(&block)
 
