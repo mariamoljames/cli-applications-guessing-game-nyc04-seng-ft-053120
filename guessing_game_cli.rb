@@ -9,9 +9,10 @@ def generate_random_number
 end
 def compare(input,random)
   user_input=input.to_i
-  if user_input.to_i==random
+  if user_input==random
     puts "You guessed the correct number!"
-  elsif user_input
+  elsif user_input!=random
+    puts "Sorry! The computer guessed #{random}"
 
   def each(&block)
 
