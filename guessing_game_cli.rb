@@ -10,7 +10,7 @@ end
 def run_guessing_game
   user_input=gets.chomp
   user_integer=user_input.to_i
-  random=generate_random_number
+  random=rand(7)
   if user_input.eql?("exit")
     puts "Goodbye!"
   elsif user_integer==random
