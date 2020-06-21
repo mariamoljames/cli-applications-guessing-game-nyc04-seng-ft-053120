@@ -7,9 +7,15 @@ end
 def generate_random_number
   rand(7)
 end
-def compare(user_input,random)
+def compare(input,random)
+  user_input=input.to_i
   if user_input.to_i==random
     puts "You guessed the correct number!"
+  elsif user_input
+
+  def each(&block)
+
+  end
 def run_guessing_game
   random=rand(7)
   user_input=gets.chomp
