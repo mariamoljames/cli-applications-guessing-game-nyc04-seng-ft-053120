@@ -1,5 +1,5 @@
 def run_guessing_game
-  random=rand(7)
+  random=rand(2..5)
   user_input=gets.chomp
   if user_input.eql?("exit")
     puts "Goodbye!"
