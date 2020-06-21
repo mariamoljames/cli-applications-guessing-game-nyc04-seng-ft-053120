@@ -9,7 +9,7 @@ def generate_random_number
 end
 def run_guessing_game
   prompt_user
-  user_input=get_user_input.to_i
+  user_integer=get_user_input.to_i
   random=generate_random_number
   compare()
 end
