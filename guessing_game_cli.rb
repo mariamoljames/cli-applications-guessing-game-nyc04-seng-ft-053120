@@ -9,7 +9,14 @@ def generate_random_number
 end
 def run_guessing_game
   prompt_user
-  user_integer=get_user_input.to_i
+  user_input=get_user_input
+  user_integer=user_input.to_i
   random=generate_random_number
-  compare()
+  if user_input.eql("exit")
+    puts "Goodbye!"
+  elsif user_integer==random
+    puts "You guessed the correct number!"
+  elsif user_integer!=random
+    puts "Sorry! The computer guessed #{random}."
+
 end
