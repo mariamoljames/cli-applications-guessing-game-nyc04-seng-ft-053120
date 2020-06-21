@@ -4,7 +4,9 @@ end
 def get_user_input
   gets.chomp
 end
-  def run_guessing_game
+def generate_random_number
+  rand(7)
+def run_guessing_game
   random=rand(7)
   user_input=gets.chomp
   if user_input.eql?("exit")
