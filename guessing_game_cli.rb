@@ -1,5 +1,4 @@
 def run_guessing_game
-  puts "Pick a number between 1 and 6"
   user_input=gets.chomp
   random=rand(7)
   if user_input=="exit"
