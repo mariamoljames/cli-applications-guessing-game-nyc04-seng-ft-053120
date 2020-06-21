@@ -7,6 +7,7 @@ end
 def generate_random_number
   rand(7)
 end
+def compare(user_input,random)
 def run_guessing_game
   random=rand(7)
   user_input=gets.chomp
