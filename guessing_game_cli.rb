@@ -16,6 +16,7 @@ def compare(input,random)
   else
     puts "Goodbye!"
   end
+end
 
   def each(&block)
 
