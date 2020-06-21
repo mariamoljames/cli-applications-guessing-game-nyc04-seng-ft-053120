@@ -10,6 +10,6 @@ end
 def run_guessing_game
   prompt_user
   user_input=get_user_input.to_i
-  generate_random_number
+  random=generate_random_number
   compare()
 end
